@@ -1,0 +1,32 @@
+{
+  "name": "personalized-upsell-recommender-skill",
+  "version": "1.0.0",
+  "description": "Analyze shopping cart items and purchase history to suggest optimal complementary products that maximize order value.",
+  "author": "alphaparkinc",
+  "category": "merchandising",
+  "tags": [
+    "upsell",
+    "recommendation",
+    "aov",
+    "personalization",
+    "cross-sell"
+  ],
+  "inputs": {
+    "cart_items": {
+      "type": "array",
+      "description": "Current items in cart: [{id, name, price, category}]."
+    },
+    "available_catalog": {
+      "type": "array",
+      "description": "Candidate products: [{id, name, price, category}]."
+    }
+  },
+  "outputs": {
+    "upsell_recommendations": {
+      "type": "array",
+      "description": "Ranked upsell products with price and recommendation score."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
