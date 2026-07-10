@@ -1,5 +1,5 @@
 {
-  "name": "personalized-upsell-recommender-skill",
+  "name": "genpark-personalized-upsell-recommender-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Analyze shopping cart items and purchase history to suggest optimal complementary products that maximize order value.",
   "author": "genpark",
