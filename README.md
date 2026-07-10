@@ -1,4 +1,4 @@
-# personalized-upsell-recommender-skill
+# genpark-personalized-upsell-recommender-skill
 
 > **GenPark AI Agent Skill** -- Shopping cart upsell recommender.
 
